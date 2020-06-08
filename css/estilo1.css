@@ -9,7 +9,7 @@ img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
     width: 350px; /*Este comando controla a largura da imagem*/
     height: 240px; /*este comando controla a altura da imagem*/
-    margin: 9px; /*este comando controla as margens entre as imagens da imagem*/
+    margin: 9px; /*este comando controla as margens entre as imagens*/
     float: left; /*Este comando permite criar textos ao redor da imagem*/
     padding: 2%; /*Espaçamento interno das imagens*/
     /*O (h1) e o (p) são textos que colocamos na pagina da web*/
