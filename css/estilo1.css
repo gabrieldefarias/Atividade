@@ -1,0 +1,8 @@
+img{
+    width: 340px; /*Este comando controla a largura da imagem*/
+    height: 250px; /*este comando controla a altura da imagem*/
+    margin: 1px; /*este comando controla as margens entre as imagens da imagem*/
+    float: left; /*Este comando permite criar textos ao redor da imagem*/
+    padding: 5%; /*Espaçamento interno das imagens*/
+    /*O (h1) e o (p) são textos que colocamos na pagina da web*/
+}
