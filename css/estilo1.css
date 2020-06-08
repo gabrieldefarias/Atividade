@@ -1,5 +1,12 @@
+p{
+    padding-left: 5%; /*Espaçamento interno do lado esquerdo das imagens*/
+    padding-right: 5%; /*Espaçamento interno do lado direito das imagens*/
+}
+h1{
+    padding-left: 5%;  
+}
 img{
-    border: 1px solid;
+    border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
     width: 350px; /*Este comando controla a largura da imagem*/
     height: 240px; /*este comando controla a altura da imagem*/
     margin: 9px; /*este comando controla as margens entre as imagens da imagem*/
