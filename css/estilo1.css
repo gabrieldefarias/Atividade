@@ -1,16 +1,14 @@
-p{
+#heaven{
     margin-left: 3%;
     margin-right: 3%;
-}
-h1{
-    
-    padding-left: 3%; /*Espaçamento interno do lado esquerdo das imagens*/
-    padding-right: 3%; /*Espaçamento interno do lado direito das imagens*/  
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
 }
 #pa img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
-    width: 50px; /*Este comando controla a largura da imagem*/
-    height: 30px; /*este comando controla a altura da imagem*/
+    width: 70px; /*Este comando controla a largura da imagem*/
+    height: 45px; /*este comando controla a altura da imagem*/
     margin-right: 3%;
     margin-left: 3%;
     margin-top: 1%;
@@ -19,8 +17,8 @@ h1{
 }
 #pb img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
-    width: 200px; /*Este comando controla a largura da imagem*/
-    height: 120px; /*este comando controla a altura da imagem*/
+    width: 280px; /*Este comando controla a largura da imagem*/
+    height: 170px; /*este comando controla a altura da imagem*/
     margin-right: 3%;
     margin-left: 3%;
     margin-top: 1%;
@@ -29,8 +27,8 @@ h1{
 }
 #pc img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
-    width: 800px; /*Este comando controla a largura da imagem*/
-    height: 480px; /*este comando controla a altura da imagem*/
+    width: 650px; /*Este comando controla a largura da imagem*/
+    height: 370px; /*este comando controla a altura da imagem*/
     margin-right: 3%;
     margin-left: 3%;
     margin-top: 1%;
@@ -39,7 +37,7 @@ h1{
 }
 #pd img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
-    width: 1150px; /*Este comando controla a largura da imagem*/
+    width: 1121px; /*Este comando controla a largura da imagem*/
     height: 800px; /*este comando controla a altura da imagem*/
     margin-left: 3%;
     margin-top: 1%;
