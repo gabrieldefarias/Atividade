@@ -38,7 +38,7 @@
 #pd img{
     border: 1px solid; /*Este comando cria bordas ao redor das imagens*/
     width: 1121px; /*Este comando controla a largura da imagem*/
-    height: 800px; /*este comando controla a altura da imagem*/
+    height: 600px; /*este comando controla a altura da imagem*/
     margin-left: 3%;
     margin-top: 1%;
     padding: 2%; /*Este comando cria espaçamento interno das imagens*/
