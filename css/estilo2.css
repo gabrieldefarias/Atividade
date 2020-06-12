@@ -3,9 +3,6 @@
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
 }
-#estrutura h1{
-    padding-left: 5%;
-}
 #estrutura #heaver{
     background-color: blue;
     color: white;
@@ -20,9 +17,9 @@
 #estrutura #produto a{
     background-color: blue;
     color: white;
-    border: 1px solid;
+    border: 2px solid;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 7px 20px;
 }
 #estrutura #produto a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
     background-color: white;
