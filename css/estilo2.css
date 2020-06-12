@@ -1,0 +1,42 @@
+#estrutura{
+    width: 80%; /*largura*/
+    margin-left: auto; /*margem a esquerda*/
+    margin-right: auto; /*margem a direita*/
+}
+#estrutura h1{
+    padding-left: 5%;
+}
+#estrutura #heaver{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 2% 0%;
+    text-align: center;
+}
+#estrutura #produto{
+    border: 1px solid;
+    display: flex;
+}
+#estrutura #produto a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0px 5px;
+}
+#estrutura #produto a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
+    background-color: white;
+    color: blue;
+}
+#estrutura #produto img{
+    width: 260px; /*Este comando controla a largura da imagem*/
+    height: 200px; /*este comando controla a altura da imagem*/
+    padding: 2%; /*Este comando cria espaçamento interno das imagens*/
+}
+#estrutura #rodape{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin-top: 2%;
+    text-align: center;
+}
