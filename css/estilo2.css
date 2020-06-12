@@ -20,8 +20,8 @@
 #estrutura #produto a{
     background-color: blue;
     color: white;
-    text-decoration: none;
     border: 1px solid;
+    text-decoration: none;
     padding: 0px 5px;
 }
 #estrutura #produto a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
