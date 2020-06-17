@@ -1,7 +1,10 @@
+body{
+    background-color: #e6dede;
+}
 #header{
     background-color: blue;
     color: white;
-    padding: 10px;
+    padding: 7px 0px;
     text-align: center;
 }
 #estrutura{
@@ -32,10 +35,13 @@
     height: 200px; /*este comando controla a altura da imagem*/
     padding: 19px; /*Este comando cria espaçamento interno das imagens*/
 }
+#estrutura #produto img:hover{
+    transform: translateY(-8px);
+}
 #rodape{
     background-color: blue;
     color: white;
-    padding: 10px;
+    padding: 7px 0px;
     margin-top: 1%;
     text-align: center;
 }
