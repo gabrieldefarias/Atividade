@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário de contato</title>
     <link rel="stylesheet" href="css/estilo3.css">
 </head>
-<body>
-    <div id="estrutura">
+<body onload="obterhora()">
         <form name="frmcontact">
+            <h2 id="tex"></h2>
             <h1>Olá, venha falar conosco</h1>
             <p class="nome">
                 <label for="nome">Nome:</label>
-                <input type="text">
+                <input type="text" id="txtnome" placeholder="Digite seu nome" name="nome" required/>
             </p>
             <p class="tel">
-                <label for="tel">Telefone:</label>
-                <input type="text">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="txttel" name="telefone" placeholder="(xx) 9 8765-4321"/>
             </p>
             <p>
                 <label for="email">E-mail:</label>
-                <input type="text">
+                <input type="email" id="txtemail" name="email" placeholder="Digite seu E-mail"/>
+            </p>
+            <p>
+                <label for="anonasc">Ano de nascimento:</label>
+                <input type="number" id="txtano" placeholder="1920 (minimo)" name="anonasc"/>
             </p>
             <p>
                 <label for="msg">Mensagem:</label>
-                <input type="text">
+                <textarea name="msg" id="" placeholder="Deixe seu comentário"></textarea>
             </p>
-            <p>
-                
+            <p class="fenviar">
+                <input type="submit" value="Enviar" onclick="enviar()">
             </p>
         </form>
+    <div id="fim">
+        
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
