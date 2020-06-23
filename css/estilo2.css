@@ -58,6 +58,11 @@ body{ /*Corpo do site*/
     margin-top: 1%;
     text-align: center;
 }
+@media screen and (max-width: 700px){
+    #estrutura #produto{
+        flex-direction: column;
+    }
+}
 /*____________________________________________________ Pagina História*/
 #estruturei{ /*Pagina da história do site*/
     width: 80%; /*largura*/
