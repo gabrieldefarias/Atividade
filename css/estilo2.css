@@ -21,7 +21,7 @@ body{ /*Corpo do site*/
     color: white;
 }
 #estrutura{ /*Estrutura da pagina da história do site*/
-    width: 80%; /*largura*/
+    width: 90%; /*largura*/
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
 }
