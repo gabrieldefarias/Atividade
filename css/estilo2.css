@@ -62,6 +62,10 @@ body{ /*Corpo do site*/
     #estrutura #produto{
         flex-direction: column;
     }
+    #estrutura #produto img{
+        width: auto;
+        height: 300px;
+    }
 }
 /*____________________________________________________ Pagina História*/
 #estruturei{ /*Pagina da história do site*/
