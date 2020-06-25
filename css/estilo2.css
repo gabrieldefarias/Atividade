@@ -46,7 +46,7 @@ body{ /*Corpo do site*/
 #estrutura #produto img{
     width: 260px; /*Este comando controla a largura da imagem*/
     height: 200px; /*este comando controla a altura da imagem*/
-    padding: 10px; /*Este comando cria espaçamento interno das imagens*/
+    padding: 15px; /*Este comando cria espaçamento interno das imagens*/
 }
 #estrutura #produto img:hover{ /*Faz a posição da foto mudar um pouco*/
     transform: translateY(-8px);
