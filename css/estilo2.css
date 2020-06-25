@@ -44,9 +44,9 @@ body{ /*Corpo do site*/
     color: blue;
 }
 #estrutura #produto img{
-    width: 240px; /*Este comando controla a largura da imagem*/
-    height: 190px; /*este comando controla a altura da imagem*/
-    padding: 5px; /*Este comando cria espaçamento interno das imagens*/
+    width: 260px; /*Este comando controla a largura da imagem*/
+    height: 200px; /*este comando controla a altura da imagem*/
+    padding: 10px; /*Este comando cria espaçamento interno das imagens*/
 }
 #estrutura #produto img:hover{ /*Faz a posição da foto mudar um pouco*/
     transform: translateY(-8px);
