@@ -14,7 +14,7 @@ body{ /*Corpo do site*/
     border-color: black;
     text-decoration: none;
     padding: 0px 20px;
-    margin-left: 4%;
+    margin-left: 1%;
 }
 #header a:hover{ /*Muda a parte do link da parte de cima do site*/
     background-color: black;
