@@ -65,6 +65,9 @@ body{ /*Corpo do site*/
     text-align: center;
 }
 @media screen and (max-width: 600px){
+    #estrutura{
+        width: 100%; /*largura*/
+    }
     #estrutura #produto{
         flex-direction: column;
     }
