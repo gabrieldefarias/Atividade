@@ -16,7 +16,7 @@ body{ /*Corpo do site*/
 #estrutura #menu li{
     list-style: none;
     display: inline-block;
-    width: 230px;
+    width: 250px;
     text-align: center;
     border: 1px solid;
 }
