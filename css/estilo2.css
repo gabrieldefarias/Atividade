@@ -7,24 +7,30 @@ body{ /*Corpo do site*/
     padding: 7px 0px;
     text-align: center;
 }
-#header a{ /*Link da parte de cima do site*/
-    background-color: white;
-    color: black;
-    border: 1px solid;
-    border-color: black;
-    text-decoration: none;
-    padding: 0px 20px;
-    margin-left: 1%;
-}
-#header a:hover{ /*Muda a parte do link da parte de cima do site*/
-    background-color: black;
-    color: white;
-}
 #estrutura{ /*Estrutura da pagina da história do site*/
     width: 90%; /*largura*/
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
 }
+#estrutura #menu ul{padding: 0px;}
+#estrutura #menu li{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border: 1px solid;
+}
+#estrutura #menu a{
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    display: inline-block;
+    padding: 7px 0px;
+}
+#estrutura #menu a:hover{color: blue;background-color: white;}
 #estrutura #produto{ /*Conteudo do site como fotos e informação*/
     border: 1px solid;
     display: flex;
