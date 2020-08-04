@@ -57,6 +57,10 @@ body{ /*Corpo do site*/
 #estrutura #produto img:hover{ /*Faz a posição da foto mudar um pouco*/
     transform: translateY(-8px);
 }
+.paragrafo{
+    text-align: justify;
+    padding: 15px;
+}
 #rodape{ /*Conteudo do rodape do site*/
     background-color: blue;
     color: white;
