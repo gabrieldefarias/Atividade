@@ -8,7 +8,7 @@ body{ /*Corpo do site*/
     text-align: center;
 }
 #estrutura{ /*Estrutura da pagina da história do site*/
-    width: 90%; /*largura*/
+    width: 80%; /*largura*/
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
 }
@@ -16,7 +16,7 @@ body{ /*Corpo do site*/
 #estrutura #menu li{
     list-style: none;
     display: inline-block;
-    width: 250px;
+    width: 244px;
     text-align: center;
     border: 1px solid;
 }
