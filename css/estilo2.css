@@ -65,16 +65,10 @@ body{ /*Corpo do site*/
     text-align: center;
 }
 @media screen and (max-width: 600px){
-    #estrutura{
-        width: 100%; /*largura*/
-    }
-    #estrutura #produto{
-        flex-direction: column;
-    }
-    #estrutura #produto img{
-        width: auto;
-        height: 300px;
-    }
+    #estrutura{width: 100%;} /*largura*/
+    #estrutura #menu li{width: 100%;}
+    #estrutura #produto{flex-direction: column;}
+    #estrutura #produto img{width: auto; height: 300px;}
 }
 /*____________________________________________________ Pagina História*/
 #estruturei{ /*Pagina da história do site*/
